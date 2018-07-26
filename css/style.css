@@ -1,0 +1,465 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a,img{
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+}
+
+/*headpart*/
+
+.header{
+  width: 1510px;
+  margin:0 auto;
+}
+
+#headpart{
+  width: 100%;
+  height: 600px;
+  color: white;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1d61a3+0,67a8ea+50,1c60a3+100 */
+  background: #1d61a3; /* Old browsers */
+  background: -moz-linear-gradient(left, #1d61a3 0%, #67a8ea 50%, #1c60a3 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #1d61a3 0%,#67a8ea 50%,#1c60a3 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #1d61a3 0%,#67a8ea 50%,#1c60a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d61a3', endColorstr='#1c60a3',GradientType=1 ); /* IE6-9 */
+  position: relative;
+}
+
+.logo{
+  display: inline-block;
+  float: left;
+  margin: 50px 0 50px 100px;
+}
+
+.address{
+  float: right;
+  margin: 80px 200px 50px 0;
+}
+
+.navigation{
+  clear: both;
+  margin-left: 180px;
+}
+
+.navigation li{
+    display: inline-block;
+}
+
+.navigation >ul >li >a{
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.home{
+  background-image: url('../images/bghome.png');
+  background-size: cover;
+  padding:20px 40px; 
+}
+
+.home a:hover{
+      color: black;
+}
+
+.about{
+  background-image: url('../images/aboutus.png');
+  background-size: cover;
+  padding:20px 40px; 
+}
+
+.about a:hover{
+    color: black;
+}
+
+.teach{
+  background-image: url('../images/bgteacher.png');
+  background-size: cover;
+  padding:20px 40px; 
+}
+
+.teach a:hover{
+  color: black;
+}
+
+.event{
+  background-image: url('../images/bgevent.png');
+  background-size: cover;
+  padding:20px 40px; 
+}
+
+.event a:hover{
+  color: black;
+}
+
+.activi{
+  background-image: url('../images/bgactivities.png');
+  background-size: cover;
+  padding:20px 40px; 
+}
+
+.activi a:hover{
+  color: black;
+}
+
+.faq{
+  background-image: url('../images/bgfaqs.png');
+  background-size: cover;
+  padding:20px 40px; 
+}
+
+.faq a:hover{
+  color: black;
+}
+
+.contact{
+  background-image: url('../images/bgcontacts.png');
+  background-size: cover;
+  padding:20px 40px; 
+}
+
+.contact a:hover{
+  color: black;
+}
+
+.mainimage{
+  position: absolute;
+  top: 270px;
+  left: 140px;
+  /*transform: translate( 8%, 1%);*/
+}
+
+/*main/section2*/
+
+#section2{
+    width: 100%;
+    height: 600px;
+    background-color: #96b41e;
+    color: white; 
+}
+
+.welcomebox{
+    width: 1510px;
+    margin: 0 auto;
+}
+
+.welcometext{
+  width: 500px;
+  float: left;
+  padding: 300px 50px 50px 280px;
+}
+
+.welcometext >h2{
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.welcometext >p{
+  line-height: 20px;
+}
+
+.welcometext >button{
+  background-color: #ef3d3d;
+  color: white;
+  padding: 10px 15px;
+  border:transparent;
+  font-weight: 400;
+  font-size: .9rem;
+  margin-top: 20px;
+}
+
+.welcomeimages{
+  float: left;
+  position: relative;
+}
+
+.welcomeimages_01{
+  display: none;
+  position: absolute;
+  top: 430px;
+  left: 10px;
+}
+
+.welcomeimages_02{
+  display: none;
+  position: absolute;
+  top: 280px;
+  left: 90px;
+}
+
+.welcomeimages_03{
+  display: none;
+  position: absolute;
+  top: 380px;
+  left: 235px;
+}
+
+/*section3*/
+
+#section3{
+  width: 100%;
+  height: 550px;
+  background-color: #ef3d3d;
+  color: white;
+}
+
+.ourdetail{
+  width: 1510px;
+  margin: 0 auto;
+}
+
+.ourdetail p {
+  word-break: break-all;
+}
+
+.ourcentre{
+    float: left;
+    width: 250px;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+
+.activities{
+    float: left;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.ourevents{
+    float: left;
+    margin-top: 50px;
+    width: 250px;
+}
+
+.txt{
+      font-weight: 400;
+      padding-bottom: 30px;
+}
+
+.ourpic{
+  display: none;
+  padding-bottom: 30px;
+}
+
+.ourcentre >button{
+  background-color: #eb9e02;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 30px;
+  border:0;
+}
+
+.activities >button{
+  background-color:#0ebddc;
+  color: white; 
+  padding:10px 15px;
+  margin-top: 30px;
+  border:0;
+}
+
+.ourevents >button{
+  background-color: #95b60f;
+  color:white;
+  padding:10px 15px;
+  margin-top: 30px;
+  border:0;
+}
+
+/*section4*/
+
+.innovative{
+  width: 1510px;
+  margin:0 auto;
+}
+
+#section4{ 
+  background-image: url('../images/innovative.png');
+  background-size: cover;
+  height: 400px;
+}
+
+.innocativecontent{
+  width: 500px;
+  padding-top: 50px;
+  padding-left: 300px;
+}
+
+.head{
+  padding-left: 100px;
+}
+
+.innocativecontent >h3{
+  color: #043667;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 6px;
+}
+
+.innocativecontent >p{
+  padding-left: 50px;
+  padding-top: 20px;
+  line-height: 20px;
+}
+
+.innocativecontent >button{
+  background-color: transparent;
+  border: transparent;
+  margin-top: 20px;
+  margin-left: 100px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/*section5*/
+
+#section5{
+  height: 500px;
+  background-color: #f79d00;
+  color: white;
+}
+
+.teaching{
+  width: 1510px;
+  margin: 0 auto;
+}
+
+.team{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 280px;
+  letter-spacing: 6px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.teacher1{
+  width: 250px;
+  float: left;
+  margin-left: 280px;
+  text-align: center;
+}
+
+.teacher1 >h4{
+    padding: 10px 0 10px 0;
+}
+
+.teacher1 >p{
+  word-break: break-all;
+  padding-right: 10px;
+}
+
+.teacher1 >img{
+  margin-left: 50px;  
+}
+
+.teacher2{
+  width: 250px;
+  float: left;
+}
+
+.teacher2 >h4{
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.teacher2 >p{
+  word-break: break-all;
+  padding-right: 10px;
+}
+
+.teacher2 >img{
+  margin-left: 50px;  
+}
+
+.teacher3{
+  width: 250px;
+  float: left;
+}
+
+.teacher3 >h4{
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.teacher3 >p{
+  word-break: break-all;
+  padding-right: 10px;
+}
+
+.teacher3 >img{
+  margin-left: 50px;  
+}
+
+.teacher4{
+  width: 250px;
+  float: left;
+}
+
+.teacher4 >h4{
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.teacher4 >p{
+  word-break: break-all;
+  padding-right: 10px;
+}
+
+.teacher4 >img{
+  margin-left: 50px;  
+}
+
+/*footer*/
+
+#lastpart{
+  clear: both;
+  width: 100%;
+  height: 150px;
+  background-color: #14bbdf;
+  color: white;
+}
+
+.footer{
+  width: 1510px;
+  margin:0 auto; 
+}
+
+.number{
+  float: left;
+  margin: 50px 0 0 300px;
+}
+
+.lastlogo{
+  width: 300px;
+  text-align: center;
+  float: left;
+  margin:20px 150px 0 150px; 
+}
+
+.socialmedia{
+    padding:40px 0 0 80px; 
+}
+
+.socialmedia >img{
+  display: inline-block;
+  padding: 0 10px;
+}
+
